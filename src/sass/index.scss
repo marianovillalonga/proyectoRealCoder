@@ -1,0 +1,21 @@
+@import './base/variables';
+@import './base/mixins';
+@import './base/globales';
+@import './base/utilidades';
+
+
+
+@import './layout/header';
+@import './layout/footer';
+@import './layout/navegacion';
+@import './layout/informacion';
+@import './layout/testimonios';
+@import './layout/callToAction';
+@import './layout/nosotros';
+@import './layout/img';
+@import './layout/titulos';
+@import './layout/cardmov';
+@import './layout/logo';
+
+@import './ui/avatar';
+@import './ui/cards'

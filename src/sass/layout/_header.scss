@@ -1,0 +1,119 @@
+.header {
+    background-color: $azul;
+    padding: 1rem 0 3rem 0;
+    font-family: 'Roboto', sans-serif;
+
+    &.inicio {
+        background-position: center center;
+        background-size: cover;
+
+       /*  @include tablet {
+            min-height: 70rem;
+        }
+
+        .contenido-header {
+            @include tablet {
+                min-height: 70rem;
+            }
+        } */
+    }
+}
+.btn__hero{
+    border: none;
+    border-radius: 50px;
+    background-color: $azul;
+    width: 100%;
+    box-shadow: 1px solid black;
+    color: white;
+    padding: 1em;
+}
+
+.contenido-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h1 {
+        text-align: left;
+        color: $blanco;
+        font-weight: $bold;
+        line-height: 2;
+        max-width: 60rem;
+    }
+     //responsive
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        .barra {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+
+        .navegacion {
+            visibility: visible;
+            opacity: 1;
+            height: auto;
+        }
+
+        .navegacion a {
+            font-size: 1.8rem;
+        }
+
+        .navegacion a:last-of-type {
+            margin-right: 0;
+        }
+
+        .navegacion a:hover {
+            background: linear-gradient(to bottom, #fbf700, #fbf700);
+        }
+
+        .navegacion a:hover {
+            cursor: pointer;
+        }
+
+        .navegacion a:hover {
+            background: linear-gradient(to bottom, #fbf700, #fbf700);
+        }
+    }
+    @media (max-width: 480px) {
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        .barra {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+
+        .navegacion {
+            visibility: visible;
+            opacity: 1;
+            height: auto;
+        }
+
+        .navegacion a {
+            font-size: 1.8rem;
+        }
+
+        .navegacion a:last-of-type {
+            margin-right: 0;
+        }
+
+        .navegacion a:hover {
+            background: linear-gradient(to bottom, #fbf700, #fbf700);
+        }
+
+        .navegacion a:hover {
+            cursor: pointer;
+        }
+
+        .navegacion a:hover {
+            background: linear-gradient(to bottom, #fbf700, #fbf700);
+        }
+    }
+
+}

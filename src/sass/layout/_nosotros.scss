@@ -1,0 +1,11 @@
+.imgNosotros__container{
+    border-radius: 50px;
+    border-bottom-right-radius: 0px;
+    //responsive
+    @media (max-width: 768px) {
+        border-radius: 5px;
+    }
+    @media (max-width: 480px) {
+        border-radius: 5px;
+    }
+}

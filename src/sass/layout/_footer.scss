@@ -1,0 +1,45 @@
+.footer {
+    padding: 2rem;
+    background-color: $azul;
+    margin-bottom: 0;
+
+    .contenedor-footer {
+        padding-top: 2rem;
+    }
+
+    .navegacion {
+        visibility: visible;
+        opacity: 1;
+        height: auto;
+    }
+
+    .copyright {
+        color: $blanco;
+        text-align: center;
+    }
+     //responsive
+    @media (max-width: 768px) {
+        padding: 1rem;
+        .contenedor-footer {
+            padding-top: 1rem;
+        }
+
+        .navegacion {
+            visibility: visible;
+            opacity: 1;
+            height: auto;
+        }
+    }
+    @media (max-width: 480px) {
+        padding: 1rem;
+        .contenedor-footer {
+            padding-top: 1rem;
+        }
+
+        .navegacion {
+            visibility: visible;
+            opacity: 1;
+            height: auto;
+        }
+    }
+}

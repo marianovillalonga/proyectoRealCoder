@@ -1,0 +1,74 @@
+.infoCard{
+  border-bottom-right-radius: 50px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  width: 100%;
+  img {
+    width: 100%;
+    height: auto;
+  }
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+    @media (max-width: 480px) {
+        width: 100%;
+    }
+}
+.infoCard1 {
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  width: 100%;
+  img {
+    width: 100%;
+    height: auto;
+  }
+   //responsive
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+  @media (max-width: 480px) {
+    width: 100%;
+  }
+} 
+.infoCard2 {
+  background-color: $amarillo;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  height: 290px;
+  width: 320px;
+
+  p{
+    margin: 1rem;
+    font-size: 15px;
+    font-weight: 700;
+    span{
+      font-size: 47px;
+    }
+  }
+
+   //responsive
+  @media (max-width: 768px) {
+  }
+
+
+}
+.infoCard3 {
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  margin-bottom: 20px;
+  overflow: hidden;
+  width: 100%;
+  img {
+    width: 100%;
+    height: auto;
+  }
+    //responsive
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+  @media (max-width: 480px) {
+    width: 100%;
+  }
+}

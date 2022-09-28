@@ -1,0 +1,70 @@
+.card__container{
+    width: 450px;
+    
+    
+}
+.card-img__container{
+        img{
+        width: 100%;
+        object-fit: contain;
+
+    }
+}
+.card__radius{
+    border-radius: 0px 50px 50px 50px;
+    overflow: hidden;
+    height: 20em;
+    box-shadow: 1px solid black;
+}
+.cardObj__text-container{
+    background-color: $azul;
+    
+}
+.cardObj__text{
+    font-size: 15px;
+    color: white;
+    padding: 1em;
+
+}
+.radius__cardCurso{
+    
+    border-radius: 50px 0px 50px 0px;
+    overflow: hidden;
+    background-color: $amarillo;
+    div{
+        img{
+            object-fit: cover;
+        }
+    }
+}
+
+
+@media only screen and (max-width: "768px"){
+   
+    .cardObj__text-container{
+        min-height: 8em;
+    }
+    .card__container{
+       
+        width: 160px;
+        
+        
+    }
+    .cardObj__text{
+        font-size:13px;
+    }
+    .radius__cardCurso{
+        height: 150px;
+
+        div{
+            h4{
+                font-size: 18px;
+                font-weight: bold;
+            }
+            p{
+                font-size: 11px;
+                line-height: 13px;
+            }
+        }
+    }
+}
